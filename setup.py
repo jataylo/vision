@@ -70,7 +70,7 @@ requirements = [
 # Pin numpy for backwards compatability
 numpy_ver = ' ==1.23.1'
 numpy_req = 'numpy'
-requirements.append(numpy_ver + numpy_req)
+requirements.append(numpy_req + numpy_ver)
 
 # Excluding 8.3.0 because of https://github.com/pytorch/vision/issues/4146
 pillow_ver = ' >= 5.3.0, !=8.3.0'
